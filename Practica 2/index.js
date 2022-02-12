@@ -7,5 +7,5 @@ function tocoLoQueNo() {
   n = n+1
   console.log("Toco veces: ")
   console.log(n)
-  parrAdv.innerHTML = "TE DIJE QUE NO ME TOQUES"
+  parrAdv.innerHTML = "TE DIJE QUE NO ME TOQUES X " + n
 }
