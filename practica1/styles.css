@@ -1,3 +1,16 @@
 ion-grid {
   width: 100%;
 }
+
+#totalMsg {
+  font-size: large;
+  font-weight: 600;
+}
+
+#contenedorRecibo {
+  width: 30vw;
+}
+
+#recibo ion-row ion-col {
+  border-bottom: 1px gray solid;
+}
