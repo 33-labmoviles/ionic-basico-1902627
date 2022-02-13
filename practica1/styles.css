@@ -7,10 +7,6 @@ ion-grid {
   font-weight: 600;
 }
 
-#contenedorRecibo {
-  width: 30vw;
-}
-
 #recibo ion-row ion-col {
   border-bottom: 1px gray solid;
 }

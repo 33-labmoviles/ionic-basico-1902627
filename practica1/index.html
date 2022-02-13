@@ -20,26 +20,26 @@
         <ion-grid id="inputgrid">
             <!--Fila 1-->
             <ion-row>
-                <ion-col size = 2>
+                <ion-col size = 5>
                     Descripción: 
                 </ion-col>
-                <ion-col size = 10>
-                    <ion-input placeholder="Ejemplo: Chilaquiles habaneros" id="descripcion"> </ion-input>
+                <ion-col size = 7>
+                    <ion-input placeholder="Ejemplo: Chilaquiles" id="descripcion"> </ion-input>
                 </ion-col>
             </ion-row>
             <!--Fila 2-->
             <ion-row>
-                <ion-col size = 2>
+                <ion-col size = 5>
                     Monto: 
                 </ion-col>
-                <ion-col size = 10>
+                <ion-col size = 7>
                     <ion-input placeholder="Ejemplo: 80" id="monto">$</ion-input>
                 </ion-col>
             </ion-row>
             <!--Fila 3-->
             <ion-row> 
                 <ion-col>
-                    <ion-button onclick="CalcularTotal()">Calcular monto</ion-button>
+                    <ion-button onclick="CalcularTotal()" mode="ios">Calcular monto</ion-button>
                 </ion-col>
             </ion-row>
         </ion-grid>
