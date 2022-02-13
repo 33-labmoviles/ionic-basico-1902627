@@ -15,6 +15,7 @@
     <title>Práctica 1</title>
 </head>
 <ion-app>
+<<<<<<< HEAD
     <h1>Ionic básico - Práctica 2</h1>
     <ion-grid>
         <!--Fila 1-->
@@ -37,4 +38,48 @@
         </ion-row>
     </ion-grid>
 
+=======
+    <div>
+    <h1>Ionic Básico - Práctica 2</h1>
+        <ion-grid id="inputgrid">
+            <!--Fila 1-->
+            <ion-row>
+                <ion-col size = 2>
+                    Descripción: 
+                </ion-col>
+                <ion-col size = 10>
+                    <ion-input placeholder="Ejemplo: Chilaquiles habaneros" id="descripcion"> </ion-input>
+                </ion-col>
+            </ion-row>
+            <!--Fila 2-->
+            <ion-row>
+                <ion-col size = 2>
+                    Monto: 
+                </ion-col>
+                <ion-col size = 10>
+                    <ion-input placeholder="Ejemplo: 80" id="monto">$</ion-input>
+                </ion-col>
+            </ion-row>
+            <!--Fila 3-->
+            <ion-row> 
+                <ion-col>
+                    <ion-button onclick="CalcularTotal()">Calcular monto</ion-button>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    <!--Lista de objetos-->
+        <ion-content id="contenedorRecibo">
+            <ion-grid id="recibo">
+                <ion-row>
+                    <ion-col size='6' style= "border-color: black;">Descripción</ion-col>
+                    <ion-col size='6' style= "border-color: black;">Costo</ion-col>
+                </ion-row>
+            </ion-grid>
+        </ion-content>
+    <!--Total-->
+        <p id="totalMsg">Total: $0</p>
+    </div>
+<!--Carga script-->
+<script src="index.js"></script>
+>>>>>>> 12feb
 </ion-app>
